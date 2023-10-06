@@ -22,7 +22,7 @@ const Nav = () => {
         </div>
         <div className="lg:hidden md:hidden">     
           {
-            !Open && <MSideBar/>
+            Open && <MSideBar/>
           }
         </div> 
     </div>
