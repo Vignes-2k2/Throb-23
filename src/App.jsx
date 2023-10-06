@@ -42,9 +42,6 @@ function App() {
                 <Route path="/connect" element={<Connections title={Title}/>}/>
                 <Route path="/freeze" element={<WordHunt title={Title}/>}/>
               </Routes>
-              <span className="absolute bottom-5 text-[12px] sm:text-[5px] hidden max-md:block max-md:text-[10px] max-lg:text-[12px] font-semibold">
-                  <p>Desgined and Developed by <a href="">Vigneswara</a></p>
-              </span>
             </div>
             <div className="top-0 right-0 z-50 left-auto max-md:hidden" >
                <SideBar/>

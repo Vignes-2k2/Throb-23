@@ -18,11 +18,11 @@ const Nav = () => {
     <div className="flex w-full fixed top-0 z-50">
         <div className="flex w-full h-[70px] sm:h-[90px] bg-[#545454] pl-5 pr-6 items-center justify-between">
             <Link to="/" className="h-[100%] flex items-center" ><img src={Logo} alt="MCEA" className="h-[80%]" title="Home" /></Link>
-            <img src={Open ? Hamburger : Close} alt="Menu" className="h-[30%] max-sm:h-[25%] hidden max-md:block" onClick={OpenMenu}/>
+            <img src={Open ? Close : Hamburger} alt="Menu" className="h-[30%] max-sm:h-[25%] hidden max-md:block" onClick={OpenMenu}/>
         </div>
         <div className="lg:hidden md:hidden">     
           {
-            !Open && <MSideBar/>
+            Open && <MSideBar/>
           }
         </div> 
     </div>

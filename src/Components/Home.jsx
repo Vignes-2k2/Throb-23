@@ -7,7 +7,6 @@ import AnimatedTtile from "../assets/Logos/THROB_GIF.gif"
 const Home = () => {
   return (
     <div className="flex flex-col justify-start w-full h-[100%] mt-[-40px] px-5 md:pt-5  object-cover ">
-
         <div className="absolute hidden w-full h-[88vh] object-cover top-[70px] sm:top-[90px] left-0 items-center justify-center overflow-y-hidden">
           <img src={LaptopBG} alt="BG" className="mix-blend-multiply hidden lg:block" />
           <img src={MobileBG} alt="BG" className="pl-[5%] w-full mix-blend-multiply block lg:hidden" />x
@@ -25,13 +24,10 @@ const Home = () => {
         <div className="w-full flex justify-center">
           <img src={AnimatedTtile} alt="Title" className="h-[80%]" />
         </div>
-        <div className="justify-center items-center w-full block sm:hidden">
-          <div className="w-full flex items-center justify-center">
-            
-          </div>
-          <div>
-
-          </div>
+        <div className="justify-center items-center w-full flex sm:hidden">           
+          <span className="absolute bottom-5 text-[12px] sm:text-[5px] hidden max-md:block max-md:text-[10px] max-lg:text-[12px] font-semibold z-0">
+            <p>Desgined and Developed by <a href="">Vigneswara</a></p>
+          </span>
         </div>
     </div>
   )

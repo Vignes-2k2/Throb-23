@@ -2,7 +2,7 @@ import {Link} from "react-router-dom"
 
 const MSideBar = () => {
   return (
-    <div className="fixed z-40 w-[60%] h-[90vh] text-white top-[70px] right-0 bg-[#545454] max-lg:px-5 min-lg:px-5 px-10 pt-5">
+    <div className="fixed z-40 w-[60%] h-[90vh] text-white top-[70px] right-0 bg-[#545454] max-lg:px-5 min-lg:px-5 px-10 pt-5 z-10">
     <p className="text-[30px] font-bold mb-10">Events</p>
     <span className="flex flex-col gap-8">
         <span>
