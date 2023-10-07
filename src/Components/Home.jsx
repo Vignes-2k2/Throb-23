@@ -15,7 +15,7 @@ const Home = () => {
         <div className="flex items-center gap-3 w-full mb-[3%]">
           <img src={DeptLogo} alt="Logo" className="h-[70%] mix-blend-multiply" />
             <span className="text-[14px] lg:text-[18px] sm:text-[10px] md:text-[14px] font-bold leading-6">
-              <p>Depatment</p>
+              <p>Department</p>
               <p>of</p>
               <p>Mechatronics Engineering</p>
             </span>
